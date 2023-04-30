@@ -1,0 +1,255 @@
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+
+button {
+    cursor: pointer;
+}
+
+.header {
+
+}
+
+.nav_menu {
+
+}
+
+.logo {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.logo_item1 {
+    color: #4D5AE5;
+}
+
+.logo_item2 {
+    color:#2E2F42;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.menu {}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu_item {}
+
+.menu_link {
+    font-style: normal;
+    font-weight: 500;
+    text-decoration: none;
+    color: #2E2F42;
+}
+
+.menu_link:hover,
+.menu_link:focus {
+    color: #404BBF;
+}
+
+.contacts {}
+
+.contact_mail {
+    text-decoration: none;
+    font-style: normal;
+    color: #434455;
+}
+
+.contact_tel {
+    text-decoration: none;
+    font-style: normal;
+    color: #434455;
+}
+
+.contact_mail:hover,
+.contact_mail:focus,
+.contact_tel:hover,
+.contact_tel:focus {
+    color: #404BBF;
+}
+
+
+
+
+
+
+/*--HomeWork_1--*/
+
+.hero {
+    background: #2E2F42;
+}
+
+.hero_title {
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.hero_btn {
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.hero_btn:hover,
+.hero_btn:focus {
+    background: #404BBF;
+}
+
+.feature {}
+
+.feature_menu {
+    display: flex;
+    list-style: none;
+}
+
+.feature h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.feature_item {
+    color: #434455;
+}
+
+.products {}
+
+.products h2 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.products_item {
+    display: flex;
+    list-style: none;
+}
+
+.team {
+    background: #F4F4FD;
+}
+
+.team h2 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.team_card {
+    display: flex;
+}
+
+.team_item {
+    text-align: center;
+    text-decoration: none;
+}
+
+.team_item h3 {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.team_item p {
+    color: #434455;
+}
+
+
+
+
+
+
+
+
+
+
+/*--HomeWork_2--*/
+
+
+.filters {
+
+}
+
+.filters li {
+    display: inline-block;
+}
+
+.filter_item {
+
+}
+
+.filter_btn {
+    font-family: inherit;
+    font-weight: 500;
+    color: #4D5AE5;
+    font-size: 16px;
+    line-height: 24px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+
+.filter_btn:hover,
+.filter_btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.row1,
+.row2,
+.row3 {
+    display: flex;
+}
+
+.row1 h3,
+.row2 h3,
+.row3 h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.row1 p,
+.row2 p,
+.row3 p {
+    color: #434455;
+}
+
+.footer {
+    background: #2E2F42;
+}
+
+.footer_logo_item1 {
+    color: #4D5AE5;
+}
+
+.footer_logo_item2 {
+    color: #F4F4FD;
+}
+
+.footer p {
+    color: #F4F4FD;
+}
