@@ -54,7 +54,7 @@ button {
 }
 
 .menu {
-    
+
 }
 
 .menu li {
@@ -80,18 +80,13 @@ button {
 
 }
 
-.contact_mail {
+.contact_item {
     color: #434455;
 }
 
-.contact_tel {
-    color: #434455;
-}
-
-.contact_mail:hover,
-.contact_mail:focus,
-.contact_tel:hover,
-.contact_tel:focus {
+.contact_item:hover,
+.contact_item:focus
+{
     color: #404BBF;
 }
 
@@ -118,8 +113,9 @@ button {
 
 .hero_title {
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
     color: #FFFFFF;
 }
 
@@ -152,7 +148,7 @@ button {
 
 }
 
-.feature h3 {
+.feature_title {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -200,9 +196,10 @@ button {
     background-color: #FFFFFF;
 }
 
-.team_title {
+.team_list {
     font-weight: 500;
     font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--brand-color);
 }
