@@ -252,15 +252,14 @@ button {
     display: flex;
 }
 
-.row1 h3,
-.row2 h3,
-.row3 h3 {
+.row_title {
     font-size: 20px;
     font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
 }
 
-.row1 p,
-.row2 p,
-.row3 p {
+.row_link {
     color: #434455;
 }
