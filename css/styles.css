@@ -246,9 +246,7 @@ button {
     border-radius: 4px;
 }
 
-.row1,
-.row2,
-.row3 {
+.row {
     display: flex;
 }
 
