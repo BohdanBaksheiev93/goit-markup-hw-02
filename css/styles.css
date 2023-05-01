@@ -50,21 +50,24 @@ button {
 }
 
 .list {
-
+    list-style: none;
 }
 
-.menu {}
+.menu {
+    
+}
 
 .menu li {
     display: inline-block;
 }
 
-.menu_item {}
+.menu_item {
+
+}
 
 .menu_link {
     font-style: normal;
     font-weight: 500;
-    text-decoration: none;
     color: var(--brand-color);
 }
 
@@ -73,17 +76,15 @@ button {
     color: #404BBF;
 }
 
-.contacts {}
+.contacts {
+
+}
 
 .contact_mail {
-    text-decoration: none;
-    font-style: normal;
     color: #434455;
 }
 
 .contact_tel {
-    text-decoration: none;
-    font-style: normal;
     color: #434455;
 }
 
@@ -94,11 +95,25 @@ button {
     color: #404BBF;
 }
 
+.footer {
+    background: var(--brand-color);
+}
+
+.footer_logo {
+    color: #F4F4FD;
+}
+
+.footer_par {
+    color: #F4F4FD;
+}
+
 
 /*--HomeWork_1--*/
 
 .hero {
     background: var(--brand-color);
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 
 .hero_title {
@@ -112,7 +127,7 @@ button {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
@@ -131,12 +146,17 @@ button {
 
 .feature_menu {
     display: flex;
-    list-style: none;
+}
+
+.feature_col {
+
 }
 
 .feature h3 {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
 .feature_item {
@@ -145,27 +165,29 @@ button {
 
 .products {}
 
-.products h2 {
+.product_title {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    color: var(--brand-color);
 }
 
 .products_item {
     display: flex;
-    list-style: none;
 }
 
 .team {
     background: #F4F4FD;
 }
 
-.team h2 {
+.team_title {
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     text-align: center;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: var(--brand-color);
 }
 
 .team_card {
@@ -175,14 +197,18 @@ button {
 .team_item {
     text-align: center;
     text-decoration: none;
+    background-color: #FFFFFF;
 }
 
-.team_item h3 {
+.team_title {
     font-weight: 500;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: var(--brand-color);
 }
 
-.team_item p {
+.team_par {
+    font-size: 16px;
     color: #434455;
 }
 
@@ -240,20 +266,4 @@ button {
 .row2 p,
 .row3 p {
     color: #434455;
-}
-
-.footer {
-    background: var(--brand-color);
-}
-
-.footer_logo_item1 {
-    color: #4D5AE5;
-}
-
-.footer_logo_item2 {
-    color: #F4F4FD;
-}
-
-.footer p {
-    color: #F4F4FD;
 }
