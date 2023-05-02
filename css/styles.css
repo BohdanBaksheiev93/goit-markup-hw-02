@@ -1,14 +1,18 @@
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
-    background-color:#FFFFFF;
+    background-color:var(--white-background);
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
 }
 
 :root {
+    --primary-brand: #4d5ae5;
+    --pressed-state: #404BBF;
     --brand-color: #2E2F42;
+    --body-text: #434455;
+    --light: #F4F4FD;
+    --white-background: #FFFFFF;
+    --modal-background: #E7E9FC;
 }
 
 button {
@@ -30,7 +34,7 @@ button {
     font-size: 18px;
     line-height: 1.17;
     letter-spacing: 0.03em;
-    color: #4d5ae5;
+    color: var(--primary-brand);
 }
 
 .link {
@@ -38,7 +42,7 @@ button {
 }
 
 .logo_item1 {
-    color: #4D5AE5;
+    color: var(--primary-brand);
 }
 
 .logo_item {
@@ -66,14 +70,15 @@ button {
 }
 
 .menu_link {
-    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
     font-weight: 500;
     color: var(--brand-color);
 }
 
 .menu_link:hover,
 .menu_link:focus {
-    color: #404BBF;
+    color: var(--pressed-state);
 }
 
 .contacts {
@@ -81,13 +86,14 @@ button {
 }
 
 .contact_item {
-    color: #434455;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--body-text);
 }
 
 .contact_item:hover,
-.contact_item:focus
-{
-    color: #404BBF;
+.contact_item:focus {
+    color: var(--pressed-state);
 }
 
 .footer {
@@ -95,11 +101,13 @@ button {
 }
 
 .footer_logo {
-    color: #F4F4FD;
+    color: var(--light);
 }
 
 .footer_par {
-    color: #F4F4FD;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--light);
 }
 
 
@@ -116,11 +124,11 @@ button {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color:var(--white-background);
 }
 
 .hero_btn {
-    background: #4D5AE5;
+    background: var(--primary-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
@@ -130,15 +138,17 @@ button {
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color:var(--white-background);
 }
 
 .hero_btn:hover,
 .hero_btn:focus {
-    background: #404BBF;
+    background: var(--pressed-state);
 }
 
-.feature {}
+.feature {
+
+}
 
 .feature_menu {
     display: flex;
@@ -151,19 +161,25 @@ button {
 .feature_title {
     font-weight: 500;
     font-size: 20px;
+    line-height: 24px;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: var(--brand-color);
 }
 
 .feature_item {
-    color: #434455;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--body-text);
 }
 
-.products {}
+.products {
+    
+}
 
 .product_title {
     font-size: 36px;
-    line-height: 1.11;
+    line-height: 40px;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
     color: var(--brand-color);
@@ -174,7 +190,7 @@ button {
 }
 
 .team {
-    background: #F4F4FD;
+    background: var(--light);
 }
 
 .team_title {
@@ -193,7 +209,7 @@ button {
 .team_item {
     text-align: center;
     text-decoration: none;
-    background-color: #FFFFFF;
+    background-color:var(--white-background);
 }
 
 .team_list {
@@ -205,14 +221,14 @@ button {
 }
 
 .team_par {
+    line-height: 24px;
+    letter-spacing: 0.02em;
     font-size: 16px;
-    color: #434455;
+    color: var(--body-text);
 }
 
 
-
 /*--HomeWork_2--*/
-
 
 .filters {
 
@@ -229,19 +245,19 @@ button {
 .filter_btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
-    color: #4D5AE5;
+    color: var(--primary-brand);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    background: #F4F4FD;
-    border: 1px solid #E7E9FC;
+    background: var(--light);
+    border: 1px solid var(--modal-background);
     border-radius: 4px;
 }
 
 .filter_btn:hover,
 .filter_btn:focus {
-    color: #FFFFFF;
-    background: #404BBF;
+    color:var(--white-background);
+    background: var(--pressed-state);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
@@ -259,5 +275,10 @@ button {
 }
 
 .row_link {
-    color: #434455;
+    color: var(--body-text);
+}
+
+.row_par {
+    line-height: 24px;
+    letter-spacing: 0.02em;
 }
